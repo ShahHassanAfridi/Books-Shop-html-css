@@ -23,7 +23,9 @@ body{
 .top-navbar{
     display: flex;
     flex-direction: column;
-    background-color: rgb(153, 209, 227, 0.5)
+    background-color: rgb(153, 209, 227, 0.7);
+    position: sticky;
+    top: 0;
 }
 ul{
     display: flex;
@@ -33,3 +35,29 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.child-container2{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.child1-ofContainer2{
+    display: flex;
+    flex-direction: column;
+}
+.child2-ofContainer2{
+    display: flex;
+}
+#top-img1{
+    width: 250px;
+    border-radius: 30%;
+}
+input{
+    height: 20%;
+    width: 100%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* seach icon to be added in input ..to be continued... */
