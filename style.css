@@ -26,6 +26,7 @@ body{
     background-color: rgb(153, 209, 227, 0.7);
     position: sticky;
     top: 0;
+    font-size: large;
 }
 ul{
     display: flex;
@@ -58,6 +59,38 @@ input{
     width: 100%;
     border-color: rgb(0, 0, 0);
     border-radius: 10px;
+    background-image: url(./images/input-search-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 22%;
+    font-size: larger;
 }
 
-/* seach icon to be added in input ..to be continued... */
+.child-container3{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    line-height: 3%;
+}
+
+.best-seller-nav, .books-nav{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.child-container4, .child-container5{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 19%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+#card-1{
+    background-image: url(./images/card-img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
