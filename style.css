@@ -116,11 +116,32 @@ td,th{
     line-height: 2%;
 }
 img:hover{
-    box-shadow: 5px 5px 5px;
+    box-shadow: 10px 10px 10px;
     animation-name: hover;
-}
-@keyframes hover{
-    
+    transition: 0.5s;
 }
 
-/* to be continued */
+@media (max-width:500px){
+    .main-container{
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+    }
+    .child-container6{
+        padding-right: 40%;
+    }
+    .child-container4, .child-container5{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-img{
+        width: 200%
+    }
+    #top-img1{
+        width: 150px;
+    }
+    h4{
+        font-size: 50px;
+    }
+}
