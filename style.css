@@ -76,6 +76,7 @@ input{
 .best-seller-nav, .books-nav{
     font-size: larger;
     font-weight: bolder;
+    margin-bottom: 5%;
 }
 
 .child-container4, .child-container5{
@@ -85,12 +86,41 @@ input{
 .card{
     width: 19%;
     height: 300px;
-    border: 2px solid black;
     border-radius: 5%;
 }
 
-#card-1{
-    background-image: url(./images/card-img2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.card-img{
+    width: 90%;
+    border-radius: 5%;
 }
+
+h4{
+    margin-top: 5%;
+}
+
+.child-container6{
+    background-color: rgb(153, 209, 227, 0.7);
+    margin: 6%; 
+    padding-left: 37%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footer-img{
+    width: 20%;
+}
+td,th{
+    line-height: 2%;
+}
+img:hover{
+    box-shadow: 5px 5px 5px;
+    animation-name: hover;
+}
+@keyframes hover{
+    
+}
+
+/* to be continued */
